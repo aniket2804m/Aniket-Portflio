@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aniket Portfolio</title>
+
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Aniket<span>.</span></a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Porjects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, I'm</h3>
+        <h1>Aniket Suryawanshi</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Passionate IT Engineer & Full-Stack Developer specializing in the MERN
+          stack. I build scalable solutions with clean, efficient code.
+        </p>
+
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/aniket-suryawanshi-74a90a257" target="_blank">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a href="https://github.com/aniket2804m" target="_blank">
+            <i class="bx bxl-github"></i>
+          </a>
+        </div>
+        <a href="public/Aniket Suryawanshi-Resume.pdf" class="btn">Download Resume</a>
+      </div>
+
+      <div class="home-img">
+        <img src="public/images/aniket.jpg" alt="Aniket" />
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="public/images/about.png" alt="About Me" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>
+          I’m pursuing B.E. in Computer Engineeing Siddhant College of Engineeing, Pune.
+          Skilled in MERN stack, backend development & AI-powered applications.
+          I love crafting seamless user experiences and solving technical
+          challenges.
+        </h3>
+      </div>
+    </section>
+
+    <!-- skills -->
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="skills-container">
+        <div class="skills-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Programming</h3>
+          <p>Java · JavaScript · Python · C++</p>
+        </div>
+        <div class="skills-box">
+          <i class="bx bx-globe"></i>
+          <h3>Web Development</h3>
+          <p>MERN Stack · MySQL · Sequelize</p>
+        </div>
+        <div class="skills-box">
+          <i class="bx bx-cog"></i>
+          <h3>Tools</h3>
+          <p>Git · GitHub · Postman · Docker</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="public/images/aniket-portfolio.png" alt="LinkUp" />
+          <div class="portfolio-layer">
+            <h4><a href="#"></a>Portfolio</h4>
+            <p>aniket-portfolio</p>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="public/images/Bookshelf.png" alt="Bookshelf" />
+          <div class="portfolio-layer">
+            <h4>Bookshelf</h4>
+            <p>Help to seraching Book in Book store</p>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="public/images/Zerodha.png" alt="Zerodha" />
+          <div class="portfolio-layer">
+            <h4>Zerodha</h4>
+            <a href="" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Add rest projects similarly -->
+      </div>
+    </section>
+
+    <!-- contact -->
+   <section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me!</span></h2>
+
+  <form id="contact-form">
+    <div class="input-box">
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email Address" required />
+    </div>
+    <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+
+  <!-- Contact Info (optional) -->
+  <div class="info">
+    <p>📧 suryawanshianiket7576@gmail.com</p>
+    <p>📱 +91 9307736352</p>
+  </div>
+</section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <p>© 2025 Aniket | All Rights Reserved.</p>
+    </footer>
+
+    <!-- scripts -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
